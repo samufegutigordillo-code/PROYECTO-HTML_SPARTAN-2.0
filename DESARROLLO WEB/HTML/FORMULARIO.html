@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS (FORMS)</title>
+</head>
+<body>
+    <!--TODAS LAS ETIQUETAS ESTARAN EN UN SOLO FORMULARIO-->
+
+
+<!--CREACION PARA FORMULARIOS CON USUARIO-->
+
+<form action="registrardatos.php" method="post">
+    NOMBRE:
+    <input type="text" name="NOMBRE" size="20"><br>
+
+
+
+
+<!--CREACION PARA FORMULARIOS CON CLAVE (ENVIAR Y BORRAR)-->
+
+    CLAVE:
+    <input type="password" name="CLAVE" size="20"><br><br>
+    <input type="submit" value="ENVIAR">
+    <input type="reset" value="BORRAR"><br><br>
+
+
+
+
+<!--CREACION PARA FORMULARIOS DE AREAS DE TEXTO (PARA COMENTARIOS O TEXTOS LARGOS)-->
+
+    COMENTARIOS:<br>
+    <textarea name="COMENTARIOS" rows="8" cols="60"></textarea><br><br>
+
+
+
+<!--FORMULARIO CON ETIQUETA CHECKBOX (VARIOS AL MISMO TIEMPO)-->
+
+    seleccione que(cuales) lenguaje(s) a visto hasta el momento: <br><br>
+    <input type="checkbox" name="java">JAVA <br>
+    <input type="checkbox" name="cmasmas">C++ <br>
+    <input type="checkbox" name="c">C <br>
+    <input type="checkbox" name="csharp">C# <br><br>
+
+
+
+<!--FORMULARIO CON ETIQUETA RADIO (UNO SOLO)-->
+
+    marque en que grado de aprendizaje se encuentra: <br><br>
+    <input type="radio" name="ESTUDIO" value="1"> PRIMARIA <br>
+    <input type="radio" name="ESTUDIO" value="2">SECUNDARIA <br>
+    <input type="radio" name="ESTUDIO" value="3">MEDIA <br>
+    <input type="radio" name="ESTUDIO" value="4">PROFESIONAL <br><br>
+
+
+
+<!--FORMULARIO CON ETIQUETA SELECT (CUADRO DE SELECCION INDIVIDUAL)-->
+
+    Seleccione su pais (individual): <br><br>
+    <select name="PAISES">
+        <option value="1">ARGENTINA</option>
+        <option value="2">ESPAÑA</option>
+        <option value="3">IRLANDA</option>
+        <option value="4">INDONESIA</option>
+        <option value="5">COLOMBIA</option>
+        <option value="6">PERU</option>
+        <option value="7">PARAGUAY</option>
+        <option value="8">PAISES BAJOS</option>
+        <option value="9">FRANCIA</option>
+        <option value="10">ESTADOS UNIDOS</option>
+        <option value="11">RUSIA</option> 
+        <option value="12">RUSIA</option> 
+        <option value="13">URUGUAY</option> 
+        <option value="14">VENEZUELA</option> 
+        <option value="15">ITALIA</option> 
+        <option value="16">SUIZA</option> 
+        <option value="17">CHINA</option> 
+    </select><br><br>
+
+
+
+<!--FORMULARIO CON ETIQUETA SELECT (CUADRO DE SELECCION MULTIPLE)-->
+
+    Seleccione su pais(multiple): <br><br>
+    <select name="PAISES[]" size="5" multiple>
+        <option value="1">ARGENTINA</option>
+        <option value="2">ESPAÑA</option>
+        <option value="3">IRLANDA</option>
+        <option value="4">INDONESIA</option>
+        <option value="5">COLOMBIA</option>
+        <option value="6">PERU</option>
+        <option value="7">PARAGUAY</option>
+        <option value="8">PAISES BAJOS</option>
+        <option value="9">FRANCIA</option>
+        <option value="10">ESTADOS UNIDOS</option>
+        <option value="11">RUSIA</option> 
+        <option value="12">RUSIA</option> 
+        <option value="13">URUGUAY</option> 
+        <option value="14">VENEZUELA</option> 
+        <option value="15">ITALIA</option> 
+        <option value="16">SUIZA</option> 
+        <option value="17">CHINA</option> 
+    </select><br><br>
+
+
+
+
+<!--FORMULARIO CON ETIQUETA SELECT (AGRUPAMIENTO DE OPCIONES)-->
+
+    Seleccione su fruta o verdura: <br><br>
+    <select name="ARTICULO">
+        <optgroup label="FRUTAS">
+            <option value="1">NARANJA</option>
+            <option value="2">LIMON</option>
+            <option value="3">LIMA</option>
+            <option value="4">MANZANA</option>
+            <option value="5">TORONJA</option>
+        </optgroup>
+
+        <optgroup label="VERDURAS">
+            <option value="6">ESPINACA</option>
+            <option value="7">ACELGA</option>
+            <option value="8">APIO</option>
+            <option value="9">PEREGIL</option>
+            <option value="10">CILANTRO</option>
+        </optgroup>
+    </select><br><br>
+
+
+
+<!--CREACION PARA BOTONES-->
+
+    <button type="submit">ENVIAR <img src="IMG/jefe maestro3.jpg" alt="JEFE" style="width: 25px; height: 25px;"></button><br><br>
+    <button type="reset">BORRAR <img src="IMG/NOBLE SEIS 2.jpg" alt="NOBLE" style="width: 25px; height: 25px;"></button><br><br>
+
+
+
+<!--CREACION PARA BOTONES (INPUT TYPE="BUTTON")-->
+
+    <input type="button" name="BOTON_1" value="1"><br>
+    <input type="button" name="BOTON_2" value="2"><br>
+    <input type="button" name="BOTON_3" value="3"><br>
+    <input type="button" name="BOTON_4" value="4"><br>
+
+    <input type="button" name="BOTON_SUMA" value="+"><br>
+    <input type="button" name="BOTON_RESTA" value="-"><br>
+    <input type="button" name="BOTON_MULT" value="*"><br>
+    <input type="button" name="BOTON_DIV" value="/"><br>
+    <input type="button" name="BOTON_IGUAL" value="="><br><br>
+
+
+
+<!--CREACION DE CODIGO DE SELECCION DE ARCHIVOS(INPUT TYPE="FILE")-->
+
+    Ingrese el tipo de documento que desea adjuntar:<br><br>
+    <input type="file" name="IMAGEN"><br><br>
+    <input type="submit" value="ENVIAR"><br><br>
+
+
+
+<!--CREACION DE CODIGO PARA ALMACENAMIENTO/ENVIO DE DATOS(INPUT TYPE="HIDDEN")-->
+
+  <input type="hidden" value="9:30" name="hora">
+
+  Ingrese su nombre:
+  <input type="text" name="NOMBRE" size="30">
+  <input type="submit" value="Enviar"><br><br>
+
+
+
+<!--CREACION PARA AGRUPAMIENTO DE CONTROLES (FIELSET + LEGEND)-->
+
+  <fieldset>
+    <legend>DATOS DE USUARIO</legend>
+
+    Apellido y nombre:
+    <input type="text" name="NOMBRE" size="30"><br>
+
+    Documento de identidad:
+    <input type="text" name="ID" size="8"><br>
+
+    Fecha de nacimiento:
+    <input type="text" name="FECHA_DE_NACIMIENTO" size="12"><br>
+
+    Dirección:
+    <input type="text" name="DIRECCION_USUARIO" size="30"><br>
+
+  </fieldset><br><br>
+
+  <fieldset>
+    <legend>DATOS LABORALES</legend>
+
+    Nombre de la empresa a la que trabaja:
+    <input type="text" name="NOMBRE_DE_EMPRESA" size="30"><br>
+
+    Actividad/labor:
+    <input type="text" name="TRABAJO/LABOR" size="50"><br>
+
+    Dirección de la empresa:
+    <input type="text" name="DIRECCION_EMPRESA" size="30"><br>
+  </fieldset><br><br>
+
+
+
+<!--CREACION PARA CONTROLES CON VALORES INICIALES (POR DEFECTO = CHECKED VALUE)-->
+
+Apellido y nombre:
+  <input type="text" name="nombre" size="30"><br>
+
+  Es mayor de edad?:<br>
+  <input type="radio" name="radio1" checked value="si">Si<br>   <!--estado predeterminado cuando la página se carga por primera vez-->
+  <input type="radio" name="radio1" value="no">No<br>
+
+  Telefono:
+  <input type="text" value="453-" name="telefono" 
+  size="15"><br><br>
+
+  <textarea name="comentarios" rows="5" cols="40">Comentario</textarea><br><br>
+
+
+
+<!--CREACION DE ORDEN DE FOCO DE CONTROLES-->
+
+<input type="text" name="TEXTO_1" size="5" tabindex="1">
+  <input type="text" name="TEXTO_2" size="5" tabindex="4">
+  <input type="text" name="TEXTO_3" size="5" tabindex="6"><br>
+
+  <input type="text" name="TEXTO_4" size="5" tabindex="2">
+  <input type="text" name="TEXTO_5" size="5" tabindex="3">
+  <input type="text" name="TEXTO_6" size="5" tabindex="5"><br><br>
+
+
+
+<!--CREACION DE INHABILITAR CONTROLES (DISABLED)-->
+
+Seleccione el deporte en el que desea ingresar:<br>
+
+  <input type="radio" name="seccion" value="1" disabled>NATACION<br>
+  <input type="radio" name="seccion" value="2">BALONCESTO<br>
+  <input type="radio" name="seccion" value="3">BOLLEYBALL<br><br>
+
+
+
+<!--CREACION DE FORMULARIO CON LIMITACION DE CARACTERES (MAXLENGTH)-->
+
+Ingrese su numero de documento:
+  <input type="text" name="ID" maxlength="20" size="20"><br>
+
+  Ingrese su clave:
+  <input type="password" name="clave" maxlength="12" size="12"><br><br>
+
+
+
+<!--CONTROLES SIN CAMBIAR SU CONTENIDO (READONLY)-->
+
+  Destinatario:<br>
+  <input type="text" name="nombre" size="30" value="EMPRESA *****" readonly><br><br>
+
+  Contrato:<br>
+  <textarea name="comentarios" rows="5" cols="60" readonly>
+Por la presente ..............................
+
+</textarea> <br><br>
+
+
+
+<!--CREACION DE ENVIO DE DATOS CON EMAIL-->
+
+<form action="mailto:samufegutigordillo@gmail.com" method="post" enctype="text/plain">
+
+  Ingrese su nombre: 
+  <input type="text" name="nombre" size="20"><br>
+
+  Ingrese su dirección: 
+  <input type="text" name="dirección" size="30"><br>
+
+  Informe del problema al que se debe acudir:<br>
+  <textarea rows="5" cols="40" name="problema"></textarea>
+  <br>
+<input type="submit" name="ENVIAR"><br><br>
+
+
+
+<!--CREACION PARA FORMULARIOS CON TEXTOS DESCRIPTIVOS ( VINCULACION ENTRE TEXTOS/CAMPOS = LABEL)-->
+
+<fieldset>
+  <legend>FORMULARIO DE ENCUESTA</legend>
+
+  <label for="nombre">Ingrese su nombre:</label>
+  <input type="text" name="nombre" size="30" id="nombre"><br>
+
+  <label for="mail">Ingrese su mail:</label>
+  <input type="text" name="mail" size="50" id="mail"><br>
+
+
+
+
+</form>
+</body>
+</html>
