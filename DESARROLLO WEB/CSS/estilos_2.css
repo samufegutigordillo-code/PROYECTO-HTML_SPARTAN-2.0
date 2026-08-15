@@ -1,0 +1,57 @@
+body {
+  background-image:url("../HTML/IMG/—Pngtree—abstract.png");
+  background-repeat: no-repeat;
+  background-size: 500%;
+}
+
+
+/*POSICIONAMIENTO FIJO (position:fixed)*/
+/*  * {
+  margin:0;
+  padding:0;
+}
+
+#barrasuperior{
+  position:fixed;
+  left:0px;
+  width:100%;
+  height:50px;
+  background-color:black;
+  color:white;
+}
+
+#barralateral{
+  position:fixed;
+  left:0px;
+  top:50px;
+  width:200px;
+  height:100%;
+  background-color:#eee;
+}
+
+#contenido{
+  padding-top:70px;
+  padding-left:220px;
+}*/
+
+
+
+/*DISPOSICION DE 2 COLUMNAS (position: absolute)*/
+* {
+  margin:0;
+  padding:0;
+}
+#columna1 {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  margin-top:10px;
+  background-color:#ffff55;
+}
+#columna2 { 
+  margin-left:220px;
+  margin-right:20px;
+  margin-top:10px;  
+  background-color:#ffffbb;
+}

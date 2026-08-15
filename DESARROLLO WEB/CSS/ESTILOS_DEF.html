@@ -4,7 +4,7 @@
     <title>ESTILOS DEF. css</title>
     <meta charset="UTF-8">
 
-        <!--link para unir el HTML con ñlos estilos del CSS-->
+        <!--link para unir el HTML con los estilos del CSS-->
     <link rel="StyleSheet" href="estilos.css" type="text/css">
 </head>
 
@@ -174,8 +174,89 @@ public class Rectangulo{
 
 <!--PROPIEDADES RELACIONADAS A DIMENSIN DE UNA PAGINA-->
 <div id="cabecera">
-Blog del Programador
+BLOG del Programador
 </div>
+
+
+<!--UNIDADES DE MEDIDA-->
+  <h1>Título Nº 1</h1>
+  <h2>Título Nº 2</h2>
+  <h3>Título Nº 3</h3>
+  <h4>Título Nº 4</h4>
+  <h5>Título Nº 5</h5>
+  <h6>Título Nº 6</h6><br><br>
+
+
+<!--FORMAS PARA INDICAR EL COLOR-->
+<p class="estilo1">Primer párrafo</p>
+<p class="estilo2">Segundo párrafo</p>
+<p class="estilo3">Tercer párrafo</p>
+
+
+<!--APLICACION DE HOJAS DE ESTILO A UN FORMULARIO-->
+<div id="contenedorform">
+<form method="post" action="#">
+  <label>Ingrese nombre:</label>
+  <input type="text" name="nombre" size="30">
+  <br>
+  <label>Direccion mail:</label>
+  <input type="text" name="mail" size="45">
+  <br>
+  <label>Comentarios:</label>
+  <textarea name="comentarios" cols="30" rows="5"></textarea> 
+  <br>
+  <input class="botonsubmit" type="submit" value="confirmar">
+</form>
+</div><br><br>
+
+
+
+<!--DEFINIENDO REGLAS DE ESTILO A UNA TABLA-->
+<table>
+  <caption>
+  cantidad de lluvia caida en mm.
+  </caption>
+  <thead>
+    <tr>
+    <th>Provincia</th><th>Enero</th><th>Febrero</th><th>Marzo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Córdoba</th>
+      <td>210</td><td>170</td><td>120</td>
+    </tr>
+    <tr>
+      <th>Buenos Aires</th>
+      <td>250</td><td>190</td><td>140</td>
+    </tr>
+    <tr>
+      <th>Santa Fe</th>
+      <td>175</td><td>140</td><td>120</td>
+  </tr>
+  </tbody>
+</table>
+
+
+<!--POSICIONAMIENTOS RELATIVOS-->
+<div id="caja1">
+<p>Esta es la primer caja.</p>
+<p>No se desplaza.</p>
+</div>
+<div id="caja2">
+<p>Esta es la segunda caja.</p>
+<p>Se desplaza 15 píxeles a la derecha y 5 hacia abajo de su posición 
+por defecto.</p>
+</div>
+<div id="caja3">
+<p>Esta es la cuarta caja.</p>
+<p>se desplaza.</p>
+</div>
+<div id="caja4">
+<p>Esta es la Tercer caja.</p>
+<p>se desplaza.</p>
+</div>
+
 
 </body>
 </html>
