@@ -465,4 +465,39 @@ td {
 
 
 
-/**/
+/*PROPIEDAD FLOAT A UNA IMAGEN*/
+img {
+  float:right;
+  font-size: 1rem;
+}
+
+
+
+/*PROPIEDAD FLOAT A ELEMENTOS HTML*/
+.letra {
+  float:left;
+  font-size:5rem;
+}
+
+
+
+/*SELECTOR DE HIJOS*/
+li em{
+  color:#f00;
+  font-size: 3rem ;
+}
+
+ul{
+  font-size: 2em;
+}
+
+
+
+/*SELECTOR DE HERMANO ADYACENTE Y HERMANO GENERAL*/
+/*  h1+p{
+  color:#f00;
+}
+
+h2~p{
+  color:#f00;
+}*/
