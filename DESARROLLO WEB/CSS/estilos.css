@@ -501,3 +501,127 @@ ul{
 h2~p{
   color:#f00;
 }*/
+
+
+
+/*SELECTOR DE ATRIBUTOS*/
+a[target]{
+  color:#f00;
+  font-size: 2rem;
+}
+
+a{
+  font-size: 2rem;
+  color: #bbbbbb;
+}
+
+
+
+/*PSEUDO-CLASES (FIRST-CHILD Y LAST-CHILD)*/
+ol li:first-child {
+  color:rgb(34, 141, 155);
+}
+
+ol li:last-child {
+  color:rgb(255, 172, 19);
+}
+
+li{
+  font-size: 2rem;
+}
+
+ol{
+  font-size: 2rem;
+}
+
+
+/*PSEUDO-CLASES (nth-of-type, nth-last-of-type, first-of-type y last-of-type)*/
+#contenido p:nth-child(2) {
+  color:red;
+}
+
+
+
+/*PSEUDO-CLASES (only-child y only-of-type)*/
+/*#equipo1 p:only-child {
+  color:red;
+}*/
+
+#equipo1 p:only-of-type{
+  color:red;
+}
+
+
+
+/*PSEUDO-CLASE (empty)*/
+div:empty {
+  width:80%;
+  margin:0 auto;
+  height:50px;
+  background-color:yellow;
+}
+
+
+
+/*PSEUDO-ELEMENTOS (first-letter y first-line)*/
+/*p::first-letter {
+  font-size:1.5rem;
+  color:red;
+}
+
+p{
+  font-size: 2rem;
+}*/
+
+
+
+/*PSEUDO-ELEMENTOS (before y after)*/
+strong::before {
+  content:"¡";
+}
+
+strong::after {
+  content:"!";
+}
+
+
+
+/*CSS MEDIA QUERIES*/
+.container {
+  width:100%;
+  margin:0 auto;
+  height:200px;
+  background-color:#b4a1a1;  
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    background-color:#ddd;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    background-color:#ccc;	
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    background-color:#bbb;	
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    background-color:#ccc;		
+  }
+}
+
+
+
+/**/

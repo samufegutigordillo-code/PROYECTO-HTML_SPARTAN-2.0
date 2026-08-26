@@ -272,3 +272,15 @@ li {
   padding: 5px;
 }
 
+
+
+/*FLEXBOX*/
+#contenedor1 {
+  display: flex;
+  background-color: #ddd;
+}
+
+#contenedor1 div {
+  border:1px solid black;
+  padding:1rem;
+}
