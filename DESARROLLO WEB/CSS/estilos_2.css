@@ -284,3 +284,179 @@ li {
   border:1px solid black;
   padding:1rem;
 }
+
+
+
+/*FLEXBOX (flex-direction aplicada al contenedor)*/
+/*FLEXBOX (justify-content aplicada al contenedor)*/
+#contenedor1{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  height: 300px;
+  color:white;
+  font-size:2rem;
+}
+
+#item1 {
+  background-color: #0078A6;
+}
+#item2 {
+  background-color: #0084B6;
+}
+#item3 {
+  background-color: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex-grow aplicada a los items)*/
+#contenedor1{
+  display: flex;
+  background-color: #000;  
+  height: 300px;
+  color:white;
+  font-size:2rem;
+}
+
+#item1 {  
+  background-color: #0078A6;
+}
+#item2 {
+  flex-grow: 1;
+  background-color: #0084B6;
+}
+#item3 {
+  background-color: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex-shrink aplicada a los items)*/
+#contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  flex-shrink: 0;
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex-basis aplicada a los items)*/
+#contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  base flexible: 20%;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  base flexible: 60%;  
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  base flexible: 20%;  
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (flex aplicado a los artículos)*/
+#contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  flex: 1 1 20%;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  flex: 0 0 60%;  
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  flex: 0 1 20%;  
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (orden aplicada a los artículos)*/
+#contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  pedido: 2;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  orden: 1;
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  orden: 0;
+  color de fondo: #008CC1;
+}
+
+
+
+/*FLEXBOX (align-self aplicada a los items)*/
+#contenedor1{
+  pantalla: flexible;
+  color de fondo: #000;  
+  altura: 300px;
+  color:blanco;
+  tamaño de fuente: 2rem;
+}
+
+#elemento1 {  
+  alinear-auto: automático;
+  color de fondo: #0078A6;
+}
+#elemento2 {
+  alinear-sí mismo: flex-start;
+  color de fondo: #0084B6;
+}
+#elemento3 {
+  alinear-sí mismo: flex-end;
+  color de fondo: #008CC1;
+}
+
+#elemento4 {  
+  alinear-auto: centro;
+  color de fondo: #0078A6;
+}
+#elemento5 {
+  alinear-auto: estirar;
+  color de fondo: #0084B6;
+}
+#elemento6 {
+  alinear-auto: línea base;
+  color de fondo: #008CC1;
+}
